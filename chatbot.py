@@ -11,9 +11,9 @@ def get_joke_bot_response(user_response):
 
     if user_response == "Dad, dad":
         return choice(response_dad_joke)
-        elif user_response == "Funny, funny":
+    elif user_response == "Funny, funny":
             return choice(response_funny_joke)
-        else:
+    else:
             return "I dont have that type of joke"
 
 print("")
